@@ -35,7 +35,7 @@ class Song
   end
   
   def self.fing_by_name(name)
-    @@all.find
+    @@all.find{|a| a.name == name}
   end
 
 end
