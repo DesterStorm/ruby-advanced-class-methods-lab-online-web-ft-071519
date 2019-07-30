@@ -54,3 +54,6 @@ class Song
     song
   end
 end
+
+song_1 = Song.find_or_create_by_name("Blah")
+song_2 = Song.find_or_create_by_name("Blah")
