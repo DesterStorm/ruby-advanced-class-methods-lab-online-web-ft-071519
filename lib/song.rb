@@ -35,8 +35,7 @@ class Song
   end
   
   def self.fing_by_name(name)
-    song.name = name 
-    
+    @@all.find
   end
 
 end
