@@ -47,7 +47,7 @@ class Song
   end
   
   def self.new_from_filename 
-    song.name 
+    song = self.new 
     artist_name.name 
   end
 end
