@@ -60,6 +60,10 @@ class Song
     @@all << song
     song
   end
+  
+  def self.destroy_all
+    @@all.delete 
+  end
 end
 
 song_1 = Song.find_or_create_by_name("Blah")
