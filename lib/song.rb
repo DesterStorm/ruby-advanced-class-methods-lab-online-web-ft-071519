@@ -53,6 +53,10 @@ class Song
     @@all << song
     song
   end
+  
+  def self.create_from_filename
+    
+  end
 end
 
 song_1 = Song.find_or_create_by_name("Blah")
