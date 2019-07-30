@@ -33,5 +33,10 @@ class Song
     @@all << song 
     song
   end
+  
+  def self.fing_by_name(name)
+    song.name = name 
+    
+  end
 
 end
